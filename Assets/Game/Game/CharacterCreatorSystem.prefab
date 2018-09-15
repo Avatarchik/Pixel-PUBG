@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &187774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 487774}
+  - 114: {fileID: 11487774}
+  m_Layer: 0
+  m_Name: CharacterCreatorSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &487774
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187774}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11487774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5ba05ca57942f4e9ea9cff8ceaf713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerIndex: 0
+  CharacterPresets:
+  - CharacterPrefab: {fileID: 11440178, guid: 275248acc7e4b114f81eb13c8fc4aac6, type: 2}
+    Icon: {fileID: 2800000, guid: e19a611c04ac33a43824f9d3c96eb3a7, type: 3}
+  - CharacterPrefab: {fileID: 11477494, guid: 5d7cff881b3639a488d06245cce835bb, type: 2}
+    Icon: {fileID: 2800000, guid: 8db673ab6214bf14dae6fa671036d809, type: 3}
+  - CharacterPrefab: {fileID: 11499652, guid: 3125b10e813b925489716681e0c5e058, type: 2}
+    Icon: {fileID: 2800000, guid: 574aa4ddaec11f74abf63d0c14c35df0, type: 3}
+  - CharacterPrefab: {fileID: 11409376, guid: d22b2fdc93a35754784e61be0b81465f, type: 2}
+    Icon: {fileID: 2800000, guid: f926bc097b82d894a85db9dd62f82707, type: 3}
+  - CharacterPrefab: {fileID: 11457120, guid: f4374fc7841f6b643a8923b18ff7e182, type: 2}
+    Icon: {fileID: 2800000, guid: 3b83ee3534f98c849839600e615e001a, type: 3}
+  gameManage: {fileID: 0}
+  Save: {fileID: 0}
+  playerManage: {fileID: 0}
+  CharacterBadgePrefab: {fileID: 11432854, guid: 6262113d4eca56a45824b9ed1a42b9fb,
+    type: 2}
+  Canvas: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 187774}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

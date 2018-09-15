@@ -1,0 +1,2013 @@
+fileFormatVersion: 2
+guid: 9b9a742b3c176b84eb1fb1720b4f9495
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone09
+    100002: Bone13
+    100004: Bone17
+    100006: Bone21
+    100008: Bone25
+    100010: Box005
+    100012: C_Left_Hand
+    100014: C_Right_Hand
+    100016: Dummy01
+    100018: Dummy02
+    100020: IK Chain01
+    100022: IK Chain02
+    100024: Left
+    100026: Left 1
+    100028: Left 2
+    100030: Left 3
+    100032: Left 4
+    100034: Left1
+    100036: Left10
+    100038: Left11
+    100040: Left12
+    100042: Left13
+    100044: Left14
+    100046: Left15
+    100048: Left2
+    100050: Left3
+    100052: Left4
+    100054: Left5
+    100056: Left6
+    100058: Left7
+    100060: Left8
+    100062: Left9
+    100064: Left_Hand
+    100066: Left_Hand_End
+    100068: Left_L_Arm
+    100070: Left_L_Arm_End
+    100072: Left_U_Arm
+    100074: Omni01
+    100076: Right1
+    100078: Right10
+    100080: Right11
+    100082: Right12
+    100084: Right13
+    100086: Right14
+    100088: Right15
+    100090: Right2
+    100092: Right3
+    100094: Right4
+    100096: Right5
+    100098: Right6
+    100100: Right7
+    100102: Right8
+    100104: Right9
+    100106: Right_Hand
+    100108: Right_Hand_End
+    100110: Right_L_Arm
+    100112: Right_L_Arm_End
+    100114: Right_U_Arm
+    100116: //RootNode
+    400000: Bone09
+    400002: Bone13
+    400004: Bone17
+    400006: Bone21
+    400008: Bone25
+    400010: Box005
+    400012: C_Left_Hand
+    400014: C_Right_Hand
+    400016: Dummy01
+    400018: Dummy02
+    400020: IK Chain01
+    400022: IK Chain02
+    400024: Left
+    400026: Left 1
+    400028: Left 2
+    400030: Left 3
+    400032: Left 4
+    400034: Left1
+    400036: Left10
+    400038: Left11
+    400040: Left12
+    400042: Left13
+    400044: Left14
+    400046: Left15
+    400048: Left2
+    400050: Left3
+    400052: Left4
+    400054: Left5
+    400056: Left6
+    400058: Left7
+    400060: Left8
+    400062: Left9
+    400064: Left_Hand
+    400066: Left_Hand_End
+    400068: Left_L_Arm
+    400070: Left_L_Arm_End
+    400072: Left_U_Arm
+    400074: Omni01
+    400076: Right1
+    400078: Right10
+    400080: Right11
+    400082: Right12
+    400084: Right13
+    400086: Right14
+    400088: Right15
+    400090: Right2
+    400092: Right3
+    400094: Right4
+    400096: Right5
+    400098: Right6
+    400100: Right7
+    400102: Right8
+    400104: Right9
+    400106: Right_Hand
+    400108: Right_Hand_End
+    400110: Right_L_Arm
+    400112: Right_L_Arm_End
+    400114: Right_U_Arm
+    400116: //RootNode
+    4300000: Box005
+    7400000: idle_gun
+    7400002: shoot_gun1
+    7400004: shoot_gun2
+    7400006: reload_gun1
+    7400008: idle_melee
+    7400010: punch_right
+    7400012: punch_left
+    7400014: idle_tool
+    7400016: swing_tool
+    7400018: idle_gun2
+    7400020: shoot_gun3
+    7400022: UseItem
+    9500000: //RootNode
+    13700000: Box005
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle_gun
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: C_Left_Hand
+        weight: 1
+      - path: C_Left_Hand/IK Chain02
+        weight: 1
+      - path: C_Right_Hand
+        weight: 1
+      - path: C_Right_Hand/IK Chain01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3/Bone25
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6/Bone09
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9/Bone13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12/Bone17
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15/Bone21
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Hand_End
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_L_Arm_End
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3/Left
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6/Left 3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9/Left 4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12/Left 1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15/Left 2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left_Hand_End
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_L_Arm_End
+        weight: 1
+      - path: Omni01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shoot_gun1
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: C_Left_Hand
+        weight: 1
+      - path: C_Left_Hand/IK Chain02
+        weight: 1
+      - path: C_Right_Hand
+        weight: 1
+      - path: C_Right_Hand/IK Chain01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3/Bone25
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6/Bone09
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9/Bone13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12/Bone17
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15/Bone21
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Hand_End
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_L_Arm_End
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3/Left
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6/Left 3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9/Left 4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12/Left 1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15/Left 2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left_Hand_End
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_L_Arm_End
+        weight: 1
+      - path: Omni01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shoot_gun2
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: C_Left_Hand
+        weight: 1
+      - path: C_Left_Hand/IK Chain02
+        weight: 1
+      - path: C_Right_Hand
+        weight: 1
+      - path: C_Right_Hand/IK Chain01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3/Bone25
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6/Bone09
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9/Bone13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12/Bone17
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15/Bone21
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Hand_End
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_L_Arm_End
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3/Left
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6/Left 3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9/Left 4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12/Left 1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15/Left 2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left_Hand_End
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_L_Arm_End
+        weight: 1
+      - path: Omni01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: reload_gun1
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.7322956
+        functionName: ReloadComplete
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: C_Left_Hand
+        weight: 1
+      - path: C_Left_Hand/IK Chain02
+        weight: 1
+      - path: C_Right_Hand
+        weight: 1
+      - path: C_Right_Hand/IK Chain01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3/Bone25
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6/Bone09
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9/Bone13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12/Bone17
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15/Bone21
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Hand_End
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_L_Arm_End
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3/Left
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6/Left 3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9/Left 4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12/Left 1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15/Left 2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left_Hand_End
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_L_Arm_End
+        weight: 1
+      - path: Omni01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_melee
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: C_Left_Hand
+        weight: 1
+      - path: C_Left_Hand/IK Chain02
+        weight: 1
+      - path: C_Right_Hand
+        weight: 1
+      - path: C_Right_Hand/IK Chain01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3/Bone25
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6/Bone09
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9/Bone13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12/Bone17
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15/Bone21
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Hand_End
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_L_Arm_End
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3/Left
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6/Left 3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9/Left 4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12/Left 1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15/Left 2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left_Hand_End
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_L_Arm_End
+        weight: 1
+      - path: Omni01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: punch_right
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.3496213
+        functionName: OnAction
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a1b1725c2ca45324ea8455b61dba9ecd,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: C_Left_Hand
+        weight: 1
+      - path: C_Left_Hand/IK Chain02
+        weight: 1
+      - path: C_Right_Hand
+        weight: 1
+      - path: C_Right_Hand/IK Chain01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3/Bone25
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6/Bone09
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9/Bone13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12/Bone17
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15/Bone21
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Hand_End
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_L_Arm_End
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3/Left
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6/Left 3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9/Left 4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12/Left 1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15/Left 2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left_Hand_End
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_L_Arm_End
+        weight: 1
+      - path: Omni01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: punch_left
+      takeName: Take 001
+      firstFrame: 210
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.42815226
+        functionName: OnAction
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a1b1725c2ca45324ea8455b61dba9ecd,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: C_Left_Hand
+        weight: 1
+      - path: C_Left_Hand/IK Chain02
+        weight: 1
+      - path: C_Right_Hand
+        weight: 1
+      - path: C_Right_Hand/IK Chain01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3/Bone25
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6/Bone09
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9/Bone13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12/Bone17
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15/Bone21
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Hand_End
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_L_Arm_End
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3/Left
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6/Left 3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9/Left 4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12/Left 1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15/Left 2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left_Hand_End
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_L_Arm_End
+        weight: 1
+      - path: Omni01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_tool
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: C_Left_Hand
+        weight: 1
+      - path: C_Left_Hand/IK Chain02
+        weight: 1
+      - path: C_Right_Hand
+        weight: 1
+      - path: C_Right_Hand/IK Chain01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3/Bone25
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6/Bone09
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9/Bone13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12/Bone17
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15/Bone21
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Hand_End
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_L_Arm_End
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3/Left
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6/Left 3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9/Left 4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12/Left 1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15/Left 2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left_Hand_End
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_L_Arm_End
+        weight: 1
+      - path: Omni01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: swing_tool
+      takeName: Take 001
+      firstFrame: 270
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: -Infinity
+        functionName: NewEvent
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 807310c7078bcef4db84db913c0e85d4,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: -Infinity
+        functionName: NewEvent
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 807310c7078bcef4db84db913c0e85d4,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: -Infinity
+        functionName: onAction
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 807310c7078bcef4db84db913c0e85d4,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5179142
+        functionName: OnAction
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a1b1725c2ca45324ea8455b61dba9ecd,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: C_Left_Hand
+        weight: 1
+      - path: C_Left_Hand/IK Chain02
+        weight: 1
+      - path: C_Right_Hand
+        weight: 1
+      - path: C_Right_Hand/IK Chain01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3/Bone25
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6/Bone09
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9/Bone13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12/Bone17
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15/Bone21
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Hand_End
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_L_Arm_End
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3/Left
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6/Left 3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9/Left 4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12/Left 1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15/Left 2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left_Hand_End
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_L_Arm_End
+        weight: 1
+      - path: Omni01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_gun2
+      takeName: Take 001
+      firstFrame: 310
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: C_Left_Hand
+        weight: 1
+      - path: C_Left_Hand/IK Chain02
+        weight: 1
+      - path: C_Right_Hand
+        weight: 1
+      - path: C_Right_Hand/IK Chain01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3/Bone25
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6/Bone09
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9/Bone13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12/Bone17
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15/Bone21
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Hand_End
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_L_Arm_End
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3/Left
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6/Left 3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9/Left 4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12/Left 1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15/Left 2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left_Hand_End
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_L_Arm_End
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shoot_gun3
+      takeName: Take 001
+      firstFrame: 340
+      lastFrame: 370
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: C_Left_Hand
+        weight: 1
+      - path: C_Left_Hand/IK Chain02
+        weight: 1
+      - path: C_Right_Hand
+        weight: 1
+      - path: C_Right_Hand/IK Chain01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3/Bone25
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6/Bone09
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9/Bone13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12/Bone17
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15/Bone21
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Hand_End
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_L_Arm_End
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3/Left
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6/Left 3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9/Left 4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12/Left 1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15/Left 2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left_Hand_End
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_L_Arm_End
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: UseItem
+      takeName: Take 001
+      firstFrame: 270
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.4954309
+        functionName: OnAction
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a1b1725c2ca45324ea8455b61dba9ecd,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: C_Left_Hand
+        weight: 1
+      - path: C_Left_Hand/IK Chain02
+        weight: 1
+      - path: C_Right_Hand
+        weight: 1
+      - path: C_Right_Hand/IK Chain01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right1/Right2/Right3/Bone25
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right4/Right5/Right6/Bone09
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right7/Right8/Right9/Bone13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right10/Right11/Right12/Bone17
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right13/Right14/Right15/Bone21
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Hand_End
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_L_Arm_End
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3/Left
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6/Left 3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9/Left 4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12/Left 1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15/Left 2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left_Hand_End
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_L_Arm_End
+        weight: 1
+      - path: Omni01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
