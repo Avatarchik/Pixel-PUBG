@@ -4,6 +4,7 @@
 -------------
 
 > A Pixel PUBG game built with unity2018.
+> You can download at https://github.com/ayanamirei1997/Pixel-PUBG/releases
 
 ## Feature  
 - start a PUBG game
