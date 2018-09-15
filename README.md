@@ -11,12 +11,12 @@
 
 ## Demo  
 <img src="./Images/1.PNG" width="600">
-<img src="./Images/2.PNG" width="600">
-<img src="./Images/3.PNG" width="600">
-<img src="./Images/4.PNG" width="600">
-<img src="./Images/5.PNG" width="600">
-<img src="./Images/6.PNG" width="600">
-<img src="./Images/7.PNG" width="600">
+<img src="./Images/2.png" width="600">
+<img src="./Images/3.png" width="600">
+<img src="./Images/4.png" width="600">
+<img src="./Images/5.png" width="600">
+<img src="./Images/6.png" width="600">
+<img src="./Images/7.png" width="600">
 
 ---
 
